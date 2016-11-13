@@ -7,9 +7,9 @@ html, body {
 
 .mainContent {
     position:absolute;
-    width:50%;
-    height:50%;
-    top:25%;
-    left:25%;
-    background-color:red;
+    width:40%;
+    height:40%;
+    top:0%;
+    right:0%;
+    /*background-color:red;*/
 }

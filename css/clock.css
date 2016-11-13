@@ -1,6 +1,7 @@
 .frame {
-  width:25vW;
-  height:25vW;
+  width: 25%;
+  height: 0;
+  padding-bottom: 25%;
   left:2%;
   bottom:2%;
   background-color:transparent;
@@ -76,12 +77,12 @@
 .second_hand {
   border-radius:0%;
   width: 10%;
-  height:800%;
-  left:40%;
-  top:10%;
+  height:900%;
+  left:45%;
+  top:-60%;
   background-color:red;
   z-index:2;
-  transform-origin: 45% 5%;
+  transform-origin: 90% 12%;
   transform: rotateZ(180deg);
 }
 
