@@ -1,0 +1,15 @@
+html, body {
+    width:100%;
+    height:100%;
+    margin:0 !important;
+    padding:0 !important;
+}
+
+.mainContent {
+    position:absolute;
+    width:50%;
+    height:50%;
+    top:25%;
+    left:25%;
+    background-color:red;
+}

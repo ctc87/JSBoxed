@@ -1,0 +1,113 @@
+.frame {
+  width:25vW;
+  height:25vW;
+  left:2%;
+  bottom:2%;
+  background-color:transparent;
+  position:absolute;
+  /*display: none;*/
+  border-radius: 50%;
+  background-color:black;
+}
+
+.clock {
+  position:absolute;
+  background-color:white;
+  width:90%;
+  height:90%;
+  border-radius:50%;
+  margin-left:5%;
+  margin-top:5%;
+  opacity: 0.8;
+}
+
+.hand_mechanism {
+  width:5%;
+  height:5%;
+  background-color:red;
+  border-radius:50%;
+  position:absolute;
+  bottom:47.5%;
+  left:47.5%;
+  overflow:visible;
+  z-index:2;
+}
+.center {
+  width:100%;
+  height:100%;
+  background-color:red;
+  position:absolute;
+  z-index:10;
+  border-radius:50%;
+}
+
+.hand {
+  position:absolute;
+  border-bottom-left-radius:50%;
+  border-bottom-right-radius:50%;
+    /*  -webkit-transition: 1s ease-in-out;*/
+    /*-moz-transition: 1s ease-in-out;*/
+    /*-o-transition: 1s ease-in-out;*/
+    /*transition: 0.5s ease-in-out;*/
+}
+
+.huor_hand {
+  width: 80%;
+  height:500%;
+  left:10%;
+  top:10%;
+  background-color:black;
+  z-index:0;
+  transform-origin: 50% 7%;
+  transform: rotateZ(180deg);
+}
+
+.minute_hand {
+  width: 50%;
+  height:800%;
+  left:25%;
+  top:10%;
+  background-color:black;
+  z-index:1;
+  transform-origin: 50% 5%;
+  transform: rotateZ(180deg);
+}
+
+.second_hand {
+  border-radius:0%;
+  width: 10%;
+  height:800%;
+  left:40%;
+  top:10%;
+  background-color:red;
+  z-index:2;
+  transform-origin: 45% 5%;
+  transform: rotateZ(180deg);
+}
+
+.fat_hour_stick {
+  width: 50%;
+  height: 25%;
+  position:absolute;
+  background-color: black;
+  bottom: 5%;
+  left: 25%;
+}
+
+
+.thin_hour_stick {
+  width: 30%;
+  height: 20%;
+  position:absolute;
+  background-color: black;
+  bottom: 5%;
+  left: 35%;
+}
+
+.hour {
+ position: absolute;
+ width: 100%;
+ height: 1050%;
+ transform-origin: 50% 5%;
+ /*background-color:blue;*/
+}
